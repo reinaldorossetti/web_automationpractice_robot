@@ -3,8 +3,8 @@
 Projeto de Automação para testar o robot framework com a browser library.
 
 
-installation instructions
-Only Python 3.7 or newer is supported.
+Installation instructions:
+Only Python 3.9 or newer is supported.
 
 1. Install node.js 14+ e.g. from https://nodejs.org/en/download/
 2. Update pip pip install -U pip to ensure latest version is used
@@ -17,6 +17,8 @@ rfbrowser init
 ````
  python -m Browser.entry init
 ````
+** Adicionei no path do windows (caminho do python deve mudar em cada maquina):
+ C:\Python39\lib\site-packages\Browser\wrapper
 
 Passo a passo para configuração:
 ```
@@ -37,12 +39,12 @@ steps_definitions --> actions
 specifications   --> atest (the same in browser library framework)  
 ````
 .  
-├── features                    # Files and folders of framework (root code).  
-  ├── support                 # Commons files to tests spec (global use).  
+├── features                 # Files and folders of framework (root code).  
+  ├── support                # Commons files to tests spec (global use).  
      ├── pages               # YML locators.  
      ├── resources           # Json ou YAML files.  
-  ├── actions                 # Keywords of tests.  
-  ├── atest                   # Specification of what the tests should do and runner of tests.  
+  ├── actions                # Keywords of tests.  
+  ├── atest                  # Specification of what the tests should do.  
 ├── .gitignore              # Files and Folders to ignore in repository.  
 ├── LICENSE  
 ├── README.md               # Documentation of project.  
@@ -66,6 +68,7 @@ allure-robotframework
 ```
 
 References:  
+https://robotframework-browser.org/
 https://pypi.org/project/robotframework-pageobjectlibrary    
 https://libraries.io/pypi/robotframework-pageobjectlibrary  
 https://github.com/boakley/robotframework-pageobjectlibrary  

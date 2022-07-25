@@ -1,6 +1,7 @@
 ***Settings***
 Documentation       Arquivos base para o projeto de automação
 Library             Browser
+Variables           ./resources/site.yml
 
 *** Variables ***
 # the variable will hold the name of the target browser
@@ -8,10 +9,10 @@ ${BROWSER}      chromium          # a default value, if not overriden
 ${HEADLESS}     false
 
 *** Keywords ***
-que esteja na home page.
+Que Esteja Na Home Page
 	New Browser		    ${BROWSER}  	headless=${HEADLESS}
     New Context         viewport={'width': 1240, 'height': 700}
-	New Page	 	    about:blank
+	New Page	 	    ${URL}
 
 Fechar navegador
     Take Screenshot     fullPage=true

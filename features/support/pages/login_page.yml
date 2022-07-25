@@ -1,0 +1,4 @@
+txt_user:     input#user-name
+txt_password:  input#password
+btn_login:    input#login-button
+txt_title:    span[class="title"]

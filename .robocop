@@ -1,0 +1,21 @@
+[tool.robocop]
+paths = [
+    "features\\atest\\*",
+]
+include = ['W0504', '*doc*']
+exclude = ["0203", "W0302","W0202"]
+reports = [
+    "rules_by_id",
+    "scan_timer"
+]
+ignore = ["ignore_me.robot"]
+ext-rules = ["path_to_external\\dir"]
+filetypes = [".txt", ".tsv"]
+threshold = "E"
+format = "{source}:{line}:{col} [{severity}] {rule_id} {desc} (name)"
+output = "robocop.log"
+configure = [
+    "line-too-long:line_length:150",
+    "0201:severity:E"
+]
+no_recursive = true
