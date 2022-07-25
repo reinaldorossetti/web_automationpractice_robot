@@ -50,10 +50,11 @@ specifications   --> atest (the same in browser library framework)
 
 Dependencies of project:
 ```
-robotframework-browser
+robotframework-browser~=13.3.0
 robotframework~=5.0.0
 robotframework-faker
-pyyaml>=5.4
+pyyaml
+allure-robotframework
 ```
 
 References:  
