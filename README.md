@@ -31,11 +31,11 @@ steps_definitions --> actions
 specifications   --> atest (the same in browser library framework)  
 .  
 ├── features                    # Files and folders of framework (root code).  
-    ├── support                 # Commons files to tests spec (global use).  
-        ├── pages               # YML locators.  
-        ├── resources           # Json ou YAML files.  
-    ├── actions                 # Keywords of tests.  
-    ├── atest                   # Specification of what the tests should do and runner of tests.  
+<br><br>├── support                 # Commons files to tests spec (global use).  
+<br><br>├── pages               # YML locators.  
+<br><br>├── resources           # Json ou YAML files.  
+<br>├── actions                 # Keywords of tests.  
+<br>├── atest                   # Specification of what the tests should do and runner of tests.  
 ├── .gitignore              # Files and Folders to ignore in repository.  
 ├── LICENSE  
 ├── README.md               # Documentation of project.  
