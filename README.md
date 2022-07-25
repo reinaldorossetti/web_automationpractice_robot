@@ -6,11 +6,17 @@ Projeto de Automação para testar o robot framework com a browser library.
 installation instructions
 Only Python 3.7 or newer is supported.
 
-1. Install node.js e.g. from https://nodejs.org/en/download/
+1. Install node.js 14+ e.g. from https://nodejs.org/en/download/
 2. Update pip pip install -U pip to ensure latest version is used
 3. Install robotframework-browser from the commandline: pip install robotframework-browser
-4. Install the node dependencies: run rfbrowser init in your shell
-5. if rfbrowser is not found, try python -m Browser.entry init
+4. Install the node dependencies: 
+````
+rfbrowser init
+````
+5. if rfbrowser is not found, try:
+````
+ python -m Browser.entry init
+````
 
 Passo a passo para configuração:
 ```

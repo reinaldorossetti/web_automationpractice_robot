@@ -1,0 +1,5 @@
+allure-robotframework
+robotframework-browser~=13.3.0
+robotframework~=5.0.0
+robotframework-faker
+pyyaml
