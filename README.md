@@ -29,17 +29,19 @@ allure serve
 A typical cucumber directory pattern (projeto segue o padrão ATDD - style gherkin).  
 steps_definitions --> actions   
 specifications   --> atest (the same in browser library framework)  
+````
 .  
 ├── features                    # Files and folders of framework (root code).  
-&nbsp;&nbsp;&nbsp;├── support                 # Commons files to tests spec (global use).  
-&nbsp;&nbsp;&nbsp;&nbsp;├── pages               # YML locators.  
-&nbsp;&nbsp;&nbsp;&nbsp;├── resources           # Json ou YAML files.  
+&nbsp;&nbsp;&nbsp;  ├── support                 # Commons files to tests spec (global use).  
+&nbsp;&nbsp;&nbsp;&nbsp; ├── pages               # YML locators.  
+&nbsp;&nbsp;&nbsp;&nbsp; ├── resources           # Json ou YAML files.  
 &nbsp;├── actions                 # Keywords of tests.  
 &nbsp;├── atest                   # Specification of what the tests should do and runner of tests.  
 ├── .gitignore              # Files and Folders to ignore in repository.  
 ├── LICENSE  
 ├── README.md               # Documentation of project.  
 └── requirements.txt        # Libraries to need to install.  
+````
 
 > Use short lowercase names at least for the top-level files and folders except  
 > `LICENSE`, `README.md`, in folder pages the name follow github default in Letter case.  
