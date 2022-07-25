@@ -26,20 +26,20 @@ allure generate ./output/allure -o allure-results/
 allure serve
 ```
 
-A typical cucumber directory pattern (projeto segue o padrão ATDD - style gherkin).
-steps_definitions --> actions 
-specifications   --> atest (the same in browser library framework)
-.
-├── features                    # Files and folders of framework (root code).
-    ├── support                 # Commons files to tests spec (global use).
-        ├── pages               # YML locators
-        ├── resources           # Json ou YAML files.
-    ├── actions                 # Keywords of tests.
-    ├── atest                   # Specification of what the tests should do and runner of tests.
-├── .gitignore              # Files and Folders to ignore in repository.
-├── LICENSE
-├── README.md               # Documentation of project.
-└── requirements.txt        # Libraries to need to install.
+A typical cucumber directory pattern (projeto segue o padrão ATDD - style gherkin).  
+steps_definitions --> actions   
+specifications   --> atest (the same in browser library framework)  
+.  
+├── features                    # Files and folders of framework (root code).  
+    ├── support                 # Commons files to tests spec (global use).  
+        ├── pages               # YML locators.  
+        ├── resources           # Json ou YAML files.  
+    ├── actions                 # Keywords of tests.  
+    ├── atest                   # Specification of what the tests should do and runner of tests.  
+├── .gitignore              # Files and Folders to ignore in repository.  
+├── LICENSE  
+├── README.md               # Documentation of project.  
+└── requirements.txt        # Libraries to need to install.  
 
 > Use short lowercase names at least for the top-level files and folders except  
 > `LICENSE`, `README.md`, in folder pages the name follow github default in Letter case.  
