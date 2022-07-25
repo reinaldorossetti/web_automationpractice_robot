@@ -7,4 +7,5 @@ Suite Teardown   Fechar Navegador
 
 *** Test Cases ***
 Cenario 01: Login com sucesso
-     Dado Efetuar o login
+     Quando Efetuar o login
+     Então Validar o login realizado
