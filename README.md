@@ -17,7 +17,7 @@ rfbrowser init
 ````
  python -m Browser.entry init
 ````
-** Adicionei no path do windows (caminho do python deve mudar em cada maquina):
+** Adicionei no path do windows (caminho do python deve mudar em cada maquina, o caminho é dado através do comando acima):
  C:\Python39\lib\site-packages\Browser\wrapper
 
 Passo a passo para configuração:
